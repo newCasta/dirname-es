@@ -1,8 +1,8 @@
 {
   "name": "dirname-es",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "__dirname and __filename in ESM",
-  "main": "./dist/index.js",
+  "main": "./index.js",
   "type": "module",
   "types": "./types/dirname-es.d.ts",
   "scripts": {
@@ -13,6 +13,14 @@
     "path",
     "filename"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siCasta/dirname-es"
+  },
+  "homepage": "https://github.com/siCasta/dirname-es#readme",
+  "bugs": {
+    "url": "https://github.com/siCasta/dirname-es/issues"
+  },
   "author": "Juan Sebastian Castañeda Burbano",
   "license": "MIT",
   "devDependencies": {
