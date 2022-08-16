@@ -1,7 +1,8 @@
-import { normalize, dirname as dir } from 'path'
+import { dirname as dir } from 'path'
+import { fileURLToPath } from 'url'
 
 export function filename(meta: ImportMeta) {
-    return normalize(meta.url).replace('file:\\', '')
+    return fileURLToPath(meta.url)
 }
 
 export function dirname(meta: ImportMeta) {
