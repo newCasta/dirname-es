@@ -1,6 +1,6 @@
 {
   "name": "dirname-es",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "__dirname and __filename in ESM",
   "main": "./index.js",
   "type": "module",
