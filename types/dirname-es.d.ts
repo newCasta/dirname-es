@@ -1,7 +1,7 @@
 /**
- * A module representing __dirname and __filename in ESM.
+ * A module for __dirname and __filename in ESM.
 */
-declare module 'dirnam-esm' {
+declare module 'dirname-es' {
     interface DirFilename {
         /**
          * Gets the directory name of a path.
